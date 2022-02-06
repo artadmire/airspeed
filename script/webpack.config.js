@@ -10,7 +10,7 @@ const config = {
   output: {
     filename: `${pkg.name}.min.js`,
     path: path.resolve(rootPath, 'min'),
-    library: 'myOutils',
+    library: `${pkg.name}`,
     libraryTarget: "umd" //  支持CommonJS、AMD, 全局对象
   },
   module: {

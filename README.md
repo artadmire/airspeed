@@ -4,7 +4,7 @@
 
 ## :building_construction:  安装使用
 
-1. 直接下载`min`目录下的[my-outils.min.js](https://github.com/artadmire/my-outils/master/min/outils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[my-outils.min.js](https://github.com/artadmire/my-outils/tree/main/min)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:

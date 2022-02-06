@@ -1,6 +1,6 @@
 {
   "name": "my-outils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript utils",
   "main": "min/myutils.min.js",
   "scripts": {

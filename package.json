@@ -1,8 +1,8 @@
 {
-  "name": "my-outils",
-  "version": "1.0.2",
+  "name": "airspeed",
+  "version": "1.0.4",
   "description": "JavaScript utils",
-  "main": "min/myutils.min.js",
+  "main": "min/airspeed.min.js",
   "scripts": {
     "build": "node script/build.js",
     "build-copy": "node script/build-copy.js",
@@ -11,11 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artadmire/my-outils.git"
+    "url": "git+https://github.com/artadmire/airspeed.git"
   },
   "keywords": [
-    "outil",
+    "util",
     "tool",
+    "speed",
     "common-util"
   ],
   "author": "MaiLe",

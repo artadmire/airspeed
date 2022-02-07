@@ -4,27 +4,27 @@
 
 ## :building_construction:  安装使用
 
-1. 直接下载`min`目录下的[my-outils.min.js](https://github.com/artadmire/my-outils/tree/main/min)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[airspeed.min.js](https://github.com/artadmire/airspeed/tree/main/min)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
 ``` html
-  <script src="my-outils.min.js"></script>
+  <script src="airspeed.min.js"></script>
   <script>
-      var is = window['my-outils'].isEmptyObject()
+      var is = window['airspeed'].isEmptyObject()
   </script>
 ```
 
 ### npm:
 ``` bash
-$ npm install --save-dev my-outils
+$ npm install --save-dev airspeed
 ```
 
 webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const outils = require('my-outils')
+const outils = require('airspeed')
 const a = outils.isEmptyObject({})
 ```
 
@@ -32,7 +32,7 @@ const a = outils.isEmptyObject({})
 
 你真的不需要完整引入所有函数，所以只引入需要使用的方法即可。
 ``` javascript
-// 只引入部分方法('my-outils/<方法名>')
-const isEmptyObject = require('my-outils/isEmptyObject')
+// 只引入部分方法('airspeed/<方法名>')
+const isEmptyObject = require('airspeed/isEmptyObject')
 const a = isEmptyObject({})
 ```
